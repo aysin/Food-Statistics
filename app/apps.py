@@ -1,5 +1,4 @@
 # By Aysin Oruz
-# lifesum test code
 
 # Import required libraries
 import requests
@@ -13,7 +12,7 @@ pp = pprint.PrettyPrinter(indent=2)
 # Make the API call
 def download_food_stats(offset=None):
     params = {'offset': offset}
-    r = requests.get('https://api.lifesum.com/v1/foodipedia/foodstats', params=params)
+    r = requests.get('place the api here', params=params)
     return r.json()
 
 
